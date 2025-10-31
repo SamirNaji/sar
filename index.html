@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark" data-accent="blue">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>غزال سمير ناجي | الموقع الشخصي</title>
+    <meta name="description" content="موقع شخصي عصري لعرض مهارات وأعمال غزال سمير ناجي من الجزائر - برمجة، تصميم ثلاثي الأبعاد، والمونتاج." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="العودة إلى الأعلى">غزال سمير ناجي</a>
+        <div class="toolbar">
+          <button class="btn icon-btn theme-toggle" aria-label="تبديل السطوع" title="تبديل السطوع">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 3v2M12 19v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M3 12h2M19 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.6"/></svg>
+          </button>
+          <button class="btn icon-btn accent-toggle" aria-label="تبديل اللون" title="تبديل اللون">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 3l2.5 4.5 5 .7-3.6 3.5.9 5-4.8-2.5-4.8 2.5.9-5L4.5 8.2l5-.7L12 3z" stroke="currentColor" stroke-width="1.3" fill="currentColor" fill-opacity="0.15"/></svg>
+          </button>
+        </div>
+        <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-menu" aria-label="القائمة الرئيسية">
+          <a href="#home">الرئيسية</a>
+          <a href="#about">من أنا</a>
+          <a href="#skills">مهاراتي</a>
+          <a href="#portfolio">أعمالي</a>
+          <a href="#contact" class="cta">تواصل</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-text reveal-up">
+            <h1 class="hero-title">غزال سمير ناجي</h1>
+            <p class="hero-sub">شاب جزائري بعمر 17 عامًا، أعشق البرمجة، التصميم، والمونتاج.
+              أتعلم ذاتيًا لأصنع أفكارًا تجمع الفن بالتقنية.</p>
+            <div class="hero-actions">
+              <a href="#portfolio" class="btn btn-primary">استكشف أعمالي</a>
+              <a href="#contact" class="btn btn-ghost">تواصل معي</a>
+            </div>
+          </div>
+          <div class="hero-visual reveal-up" aria-hidden="true">
+            <div class="blob b1"></div>
+            <div class="blob b2"></div>
+            <div class="blob b3"></div>
+            <div class="grid-orb"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about">
+        <div class="container split">
+          <div class="about-text reveal-up">
+            <h2 class="section-title">من أنا</h2>
+            <p>
+              أنا سمير من الجزائر، طالب في السنة الأولى ثانوي (آداب). أحب صناعة الأشياء من الصفر،
+              من صفحات الويب بـ HTML و Python، إلى مشاهد ثلاثية الأبعاد على Blender، وحتى مونتاج اللقطات لإيصال قصة بإيقاع جميل.
+              هنا أشارك رحلتي وتجاربي الصغيرة التي تكبر يومًا بعد يوم.
+            </p>
+          </div>
+          <div class="about-media reveal-up">
+            <img src="assets/profile.jpg" alt="صورة شخصية لسمير" onerror="this.src='assets/placeholder-avatar.svg'" />
+            <!-- ضع صورتك في المسار assets/profile.jpg لاستبدال الصورة تلقائيًا -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2 class="section-title reveal-up">مهاراتي</h2>
+          <div class="skills-grid">
+            <div class="skill-card reveal-up" aria-label="HTML">
+              <div class="icon html"></div>
+              <h3>HTML</h3>
+              <p>بناء صفحات ويب نظيفة ومتجاوبة.</p>
+            </div>
+            <div class="skill-card reveal-up" aria-label="Python">
+              <div class="icon python"></div>
+              <h3>Python</h3>
+              <p>سكربتات وأتمتة وتجربة خوارزميات.</p>
+            </div>
+            <div class="skill-card reveal-up" aria-label="Blender">
+              <div class="icon blender"></div>
+              <h3>Blender</h3>
+              <p>نمذجة وإخراج لقطات ثلاثية الأبعاد.</p>
+            </div>
+            <div class="skill-card reveal-up" aria-label="المونتاج">
+              <div class="icon edit"></div>
+              <h3>المونتاج</h3>
+              <p>تحرير فيديو بإيقاع بصري وصوتي متناغم.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="section portfolio">
+        <div class="container">
+          <h2 class="section-title reveal-up">أعمالي</h2>
+          <div class="portfolio-grid">
+            <article class="card reveal-up">
+              <img src="assets/shot-web.jpg" alt="لقطة مشروع ويب" />
+              <div class="card-body">
+                <h3>واجهة ويب بسيطة</h3>
+                <p>صفحة تجريبية متجاوبة بتأثيرات حركة ناعمة.</p>
+                <a class="card-link" href="#" target="_blank" rel="noopener">رابط تجريبي</a>
+              </div>
+            </article>
+            <article class="card reveal-up">
+              <img src="assets/shot-blender.jpg" alt="مشهد Blender" />
+              <div class="card-body">
+                <h3>مشهد ثلاثي الأبعاد</h3>
+                <p>نمذجة خفيفة وإضاءة بتوهج نيوني.</p>
+                <a class="card-link" href="#" target="_blank" rel="noopener">لقطات</a>
+              </div>
+            </article>
+            <article class="card reveal-up">
+              <img src="assets/shot-edit.jpg" alt="مونتاج فيديو" />
+              <div class="card-body">
+                <h3>مونتاج قصير</h3>
+                <p>مزج موسيقى مع لقطات لإيصال قصة سريعة.</p>
+                <a class="card-link" href="#" target="_blank" rel="noopener">مشاهدة</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title reveal-up">تواصل معي</h2>
+          <p class="reveal-up">يسعدني استقبال رسائلك واقتراحاتك أو فرص التعاون.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary reveal-up" href="mailto:naji.samir999@gmail.com" aria-label="أرسل بريدًا">
+              <svg class="icon-inline" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2 7.5L12 13.5L22 7.5V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V7.5Z" stroke="currentColor" stroke-width="1.6"/><path d="M2 7L12 13L22 7L20 6H4L2 7Z" fill="currentColor"/></svg>
+              بريد إلكتروني
+            </a>
+            <a class="btn btn-ghost reveal-up" href="https://www.instagram.com/ghezal_naji/" aria-label="حساب إنستغرام" target="_blank" rel="noopener">
+              <svg class="icon-inline" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+              إنستغرام
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> غزال سمير ناجي. جميع الحقوق محفوظة.</small>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+  </html>
+
+
